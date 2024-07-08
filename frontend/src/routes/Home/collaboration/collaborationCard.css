@@ -1,0 +1,23 @@
+.collaborationContainer .heading{
+
+    margin-bottom: 30px !important;
+
+}
+
+.collaborationContainer .collaborationCard{
+    text-align: center;
+}
+
+.collaborationContainer .collaborationCard .image{
+    width: 150px;
+    height: 150px;
+}
+
+.collaborationContainer .collaborationCard .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+}
+

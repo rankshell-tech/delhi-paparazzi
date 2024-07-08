@@ -1,2 +1,22 @@
-.homeRoute{
+.homeRoute .primaryButton {
+  background-color: var(--primary-color);
+  padding: 10px 25px;
+  color: var(--second-secondary-color);
+}
+
+.homeRoute .mainSection .heading {
+  padding: 5px 10px;
+  border-bottom: 5px solid var(--primary-text-color);
+  color: var(--primary-text-color);
+  width: fit-content;
+  margin: 0 auto;
+
+}
+.homeRoute .mainSection .heading h1{
+  /* font-size: 1.5rem; */
+}
+
+.homeRoute .mainSection {
+  padding: 20px 20px;
+  padding-bottom: 50px;
 }

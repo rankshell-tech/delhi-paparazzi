@@ -1,0 +1,59 @@
+.eventCard {
+  position: relative;
+}
+
+.eventCard .image {
+  height: 350px;
+  width: 100%;
+}
+
+.eventCard .image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.eventCard .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.eventCard .textContainer {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 100%;
+  max-width: 450px;
+  height: 100%;
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 100),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.eventCard .textContainer .text {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventCard .textContainer .text .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--second-secondary-color);
+}
+
+.eventCard .textContainer .text .texts .desc {
+  color: var(--white-dull-text-color);
+}

@@ -4,21 +4,14 @@
   justify-content: center;
   flex-direction: column;
   gap: 35px;
-  padding: 20px 20px;
-    background-color: var(--primary-background-color);
-
+  background-color: var(--primary-background-color);
 }
 
-.homeRoute .services .heading {
-    padding: 5px 10px;
-    border-bottom: 5px solid var(--primary-text-color);
-    color: var(--primary-text-color);
+.homeRoute .services .cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
-.homeRoute .services .cardContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    
-}

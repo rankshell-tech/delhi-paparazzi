@@ -1,6 +1,43 @@
 .homeRoute .services .serviceCard{
     width: 250px;
-    height: 300px;
+    height: 350px;
     background-color: var(--second-secondary-color);
+    position: relative;
 
 }
+
+.homeRoute .services .serviceCard .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeRoute .services .serviceCard .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.homeRoute .services .serviceCard .textContainer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb( from var(--second-secondary-color) r g b / 0.6);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.homeRoute .services .serviceCard .textContainer .button{
+    padding: 10px 25px;
+    background-color: var(--primary-color);
+    color: var(--second-secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
