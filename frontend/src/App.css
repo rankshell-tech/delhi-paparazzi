@@ -32,3 +32,8 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+
+button{
+  border: none;
+  outline: none;
+}

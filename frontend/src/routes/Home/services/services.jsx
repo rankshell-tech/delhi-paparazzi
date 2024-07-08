@@ -18,7 +18,7 @@ import "./service.css"
 import ServiceCard from "./serviceCard";
 export default function Services() {
   return (
-    <div className="services">
+    <div className=" mainSection services">
       <div className="heading">
         <h1>Services we offer</h1>
       </div>

@@ -1,0 +1,12 @@
+.topRestaurants .heading {
+  margin-bottom: 50px !important;
+}
+.topRestaurants .restaurantContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.topRestaurants{
+    background-color: var(--primary-background-color);
+}
