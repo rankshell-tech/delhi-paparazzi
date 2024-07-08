@@ -4,6 +4,10 @@
 
 }
 
+.collaborationContainer .collaborationCard{
+    text-align: center;
+}
+
 .collaborationContainer .collaborationCard .image{
     width: 150px;
     height: 150px;
