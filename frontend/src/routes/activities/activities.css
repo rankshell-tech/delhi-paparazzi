@@ -1,0 +1,74 @@
+.activitiesSearchPage .searchContainer {
+  border: 2px solid #e0e0e0;
+  border-color: var(--primary-color);
+  border-radius: 40px;
+  flex-grow: 1;
+}
+
+.activitiesSearchPage .searchContainerWrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.activitiesSearchPage .searchContainer button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  margin-left: 5px;
+  scale: 1;
+  color: var(--second-secondary-color);
+}
+
+.activitiesSearchPage .searchContainer input {
+  outline: none;
+}
+
+.activitiesSearchPage .activityCard {
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.activitiesSearchPage .activityCard:hover .activityCardImage img {
+  transform: scale(1.1);
+}
+.activitiesSearchPage .activityCard .activityCardImage img {
+  transition: all 1s ease;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.activitiesSearchPage .activityCard .activityCardImage {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.activitiesSearchPage .activityCard .activityCardText {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.activitiesSearchPage .activityCard .activityCardText p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  color: var(--white-dull-text-color);
+}

@@ -22,7 +22,7 @@ export default function Header() {
             color: "#000",
           }}
           className=" text-decoration-none"
-          to="./home"
+          to="/"
         >
           Home
         </Link>
@@ -58,9 +58,9 @@ export default function Header() {
             color: "#000",
           }}
           className=" text-decoration-none"
-          to="./activities"
+          to="./shopping-mall"
         >
-          Activities
+          Shopping Malls
         </Link>
         <Link
           style={{
@@ -73,7 +73,7 @@ export default function Header() {
         </Link>
         <Link
           className=" text-decoration-none"
-          to="./login"
+          to="/auth/login"
           style={{
             padding: "10px 30px",
             backgroundColor: "var(--primary-color)",

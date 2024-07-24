@@ -1,0 +1,111 @@
+.singleShoppingMallPage .shoppingMallGallery {
+  height: calc(100vh - 74px);
+}
+
+.singleShoppingMallPage .shoppingMallGallery .slides {
+  height: calc(100vh - 74px);
+}
+.singleShoppingMallPage .shoppingMallGallery .slides img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.singleShoppingMallPage .headingSection {
+  position: relative;
+}
+
+.singleShoppingMallPage .headingSection .infoContainer {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transform: translate(0%, calc(-100% - 50px));
+  /* background-color: rgb(from var(--primary-color) r g b / 0.3); */
+  background-color: rgba(255, 255, 255, 0.498);
+  padding: 10px;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  max-width: 500px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.singleShoppingMallPage .headingSection .infoContainer .nameContainer .rating {
+  display: flex;
+  gap: 5px;
+  background-color: var(--primary-color);
+  height: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--second-secondary-color);
+  width: fit-content;
+}
+
+.singleShoppingMallPage .headingSection .infoContainer .nameContainer h1 {
+  margin-bottom: 0;
+  color: var(--primary-text-color);
+}
+
+.singleShoppingMallPage .headingSection .infoContainer .desc p {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.singleShoppingMallPage .headingSection .actionButtons .btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  width: fit-content;
+}
+
+.singleShoppingMallPage .headingSection .actionButtons {
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  transform: translate(0%, calc(-100% - 50px));
+  margin-right: 20px;
+}
+
+.singleShoppingMallPage .tabs {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.singleShoppingMallPage .tabs button {
+  /* background-color: var(--primary-color); */
+  background-color: transparent;
+  /* color: var(--second-secondary-color); */
+  padding: 10px 20px;
+  position: relative;
+  bottom: -2px;
+  border-bottom: 2px solid transparent;
+}
+
+.singleShoppingMallPage .tabs button.active {
+  border-color: var(--primary-color);
+  color: var(--primary-color)
+}
+
+
+@media screen and (max-width: 768px) {
+  .singleShoppingMallPage .headingSection .infoContainer {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .singleShoppingMallPage .headingSection .actionButtons {
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    transform: translate(50%, calc(-50% - 90px));
+  }
+    
+}

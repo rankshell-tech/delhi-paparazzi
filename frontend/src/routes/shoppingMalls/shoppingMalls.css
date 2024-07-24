@@ -1,0 +1,28 @@
+.shoppingMalls .shoppingContainer{
+
+    border: 2px solid #e0e0e0;
+    border-color: var(--primary-color);
+    border-radius: 40px;
+    flex-grow: 1;
+
+
+}
+
+.shoppingMalls .searchContainerWrapper{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.shoppingMalls .shoppingContainer button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin-left: 5px;
+    scale: 1;
+    color: var(--second-secondary-color);
+}
+
+.shoppingMalls .shoppingContainer input{
+    outline: none;
+}

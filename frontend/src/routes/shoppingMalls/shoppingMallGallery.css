@@ -1,0 +1,27 @@
+.shoppingMallGalleryImages {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+.shoppingMallGalleryImages .images {
+  height: 250px;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.shoppingMallGalleryImages .images img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+  cursor: pointer;
+
+}
+
+.shoppingMallGalleryImages .images img:hover {
+  transform: scale(1.1);
+}
