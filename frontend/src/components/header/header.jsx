@@ -31,7 +31,7 @@ export default function Header() {
             color: "#000",
           }}
           className=" text-decoration-none"
-          to="./about"
+          to="/about"
         >
           About
         </Link>
@@ -40,7 +40,7 @@ export default function Header() {
             color: "#000",
           }}
           className=" text-decoration-none"
-          to="./contact"
+          to="/contact"
         >
           Contact
         </Link>
@@ -49,7 +49,7 @@ export default function Header() {
             color: "#000",
           }}
           className=" text-decoration-none"
-          to="./restaurants"
+          to="/restaurants"
         >
           Restaurants
         </Link>
@@ -58,7 +58,7 @@ export default function Header() {
             color: "#000",
           }}
           className=" text-decoration-none"
-          to="./shopping-mall"
+          to="/shopping-mall"
         >
           Shopping Malls
         </Link>
@@ -67,9 +67,9 @@ export default function Header() {
             color: "#000",
           }}
           className=" text-decoration-none"
-          to="./events"
+          to="/activities"
         >
-          Events
+          Activities
         </Link>
         <Link
           className=" text-decoration-none"

@@ -1,8 +1,8 @@
 import { Button, TextField } from "@mui/material";
 import { useEffect, useState } from "react";
-import "./shoppingMallReviews.css"
+import "./activityReview.css";
 
-export default function ShoppingMallReviews() {
+export default function ActivityReviews() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
@@ -11,8 +11,7 @@ export default function ShoppingMallReviews() {
         "https://jsonplaceholder.typicode.com/comments"
       );
       const data = await response.json();
-      // only push 15 reviews
-      
+
       const reviews = data.slice(0, 15);
       setReviews(reviews);
     };
@@ -21,8 +20,8 @@ export default function ShoppingMallReviews() {
   }, []);
 
   return (
-    <div className="shoppingMallReviews">
-      <h1>Shopping Mall Reviews</h1>
+    <div className="activityReviews">
+      <h1>Reviews</h1>
       <form className="addComment d-flex gap-2 align-items-center p-4">
         <TextField label="Write a review" variant="outlined" />
         <Button variant="contained" color="primary">

@@ -9,6 +9,10 @@ import Cafe from "./routes/cafe/cafe";
 import ShoppingMalls from "./routes/shoppingMalls/shoppingMalls";
 import SingleShoppingMallPage from "./routes/shoppingMalls/singleShoppingMallPage";
 import Activities from "./routes/activities/activities";
+import Activity from "./routes/activities/activity";
+import AddShoppingMall from "./routes/superAdmin/addShoppingMall";
+import AddRestaurant from "./routes/superAdmin/addRestaurant";
+import AddActivity from "./routes/superAdmin/addActivity";
 
 function App() {
   return (
@@ -30,6 +34,12 @@ function App() {
         </Route>
         <Route path="/activities">
           <Route path="" element={<Activities />} />
+          <Route path=":id" element={<Activity />} />
+        </Route>
+        <Route path="/super-admin">
+          <Route path="add-shopping-mall" element={<AddShoppingMall />} />
+          <Route path="add-restaurant" element={<AddRestaurant />} />
+          <Route path="add-activity" element={<AddActivity />} />
         </Route>
       </Routes>
     </div>
