@@ -12,7 +12,7 @@ export default function TopUpComingEvents() {
         <h1>Top Upcoming Events</h1>
       </div>
       <div className="eventContainer">
-        <Carousel autoPlay = {true} showArrows = {false} infiniteLoop = {true}>
+        <Carousel autoPlay = {false} showArrows = {false} infiniteLoop = {true}>
           <UpcomingEventCard />
           <UpcomingEventCard />
           <UpcomingEventCard />

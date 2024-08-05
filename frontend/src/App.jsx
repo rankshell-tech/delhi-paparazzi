@@ -1,18 +1,18 @@
 import Header from "./components/header/header";
 import "./App.css";
-import HomeRoute from "./routes/Home/home";
+import HomeRoute from "./pages/Home/home";
 import { Route, Routes } from "react-router-dom";
-import Login from "./routes/auth/login/login";
-import Register from "./routes/auth/register/register";
-import ForgotPassword from "./routes/auth/forgot-password/forgotPassword";
-import Cafe from "./routes/cafe/cafe";
-import ShoppingMalls from "./routes/shoppingMalls/shoppingMalls";
-import SingleShoppingMallPage from "./routes/shoppingMalls/singleShoppingMallPage";
-import Activities from "./routes/activities/activities";
-import Activity from "./routes/activities/activity";
-import AddShoppingMall from "./routes/superAdmin/addShoppingMall";
-import AddRestaurant from "./routes/superAdmin/addRestaurant";
-import AddActivity from "./routes/superAdmin/addActivity";
+import Login from "./pages/auth/login/login";
+import Register from "./pages/auth/register/register";
+import ForgotPassword from "./pages/auth/forgot-password/forgotPassword";
+import Cafe from "./pages/cafe/cafe";
+import ShoppingMalls from "./pages/shoppingMalls/shoppingMalls";
+import SingleShoppingMallPage from "./pages/shoppingMalls/singleShoppingMallPage";
+import Activities from "./pages/activities/activities";
+import Activity from "./pages/activities/activity";
+import AddShoppingMall from "./pages/superAdmin/addShoppingMall";
+import AddRestaurant from "./pages/superAdmin/addRestaurant";
+import AddActivity from "./pages/superAdmin/addActivity";
 
 function App() {
   return (

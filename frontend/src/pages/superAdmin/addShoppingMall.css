@@ -1,0 +1,100 @@
+.addRestaurantPage .banner {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .inputColumns input,
+  .inputColumns textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+  
+  .inputColumns input[type="text"],
+  .inputColumns textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .inputColumns textarea {
+    height: 155px;
+  }
+  
+  .inputColumns .left,
+  .inputColumns .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .inputColumns .left,
+  .inputColumns .right {
+    flex: 1;
+    flex-shrink: 1;
+  }
+  
+  .imagesContainer{
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .imagesContainer input {
+    display: none;
+  }
+  
+  .imagesContainer .logoContainer .imageContainer {
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 16/9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: #dedede;
+  }
+  
+  .imagesContainer .logoContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .imagesContainer .bannerContainer{
+    width: 100%;
+  }
+  .imagesContainer .bannerContainer img{
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 16/9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    
+  }
+  
+  .imagesContainer .placeholderContainer p{
+    margin: 0;
+  }
+  .imagesContainer .placeholderContainer .placeholder{
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 16/9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: #dedede;
+    flex-shrink: 0;
+  }
+  
